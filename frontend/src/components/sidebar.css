@@ -1,0 +1,70 @@
+.sidebar {
+  width: 240px;
+  background: #1f2937;
+  color: white;
+  padding: 20px;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+}
+
+.user-info {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #1f2937;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.username {
+  font-weight: bold;
+  color: white;
+}
+
+.role {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #38bdf8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sidebar nav {
+    flex-direction: row;
+  }
+}
+

@@ -1,0 +1,73 @@
+.purchase-container {
+  padding: 20px;
+}
+
+.purchase-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.purchase-form select,
+.purchase-form input {
+  padding: 8px;
+}
+
+.purchase-form button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.purchase-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.purchase-table th,
+.purchase-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.purchase-table th {
+  background: #1e3a8a;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
